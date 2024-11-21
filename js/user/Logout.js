@@ -1,4 +1,5 @@
 import Renderer from "../Renderer.js";
+import Background from "../util/Background.js";
 
 
 class Logout {
@@ -19,6 +20,7 @@ class Logout {
     this.#removeUsername();
     Renderer.hideLogout();
     Renderer.showLogin();
+    Background.setBackground();
   }
 
   #removeUsername() {
