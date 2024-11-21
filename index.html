@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web lock screen</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-  
+  <header id="header"></header>
+  <main id="main">
+    <div class="main__inner">
+      <div id="login">
+        <img src="" alt="" id="login-image">
+        <form id="login-form">
+          <input type="text" id="login-input" 
+          required
+          maxlength="10"
+          minlength="1"
+          autocomplete="off">
+          <button id="login-button">bnt</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer id="footer"></footer>
+  <script src="/js/App.js" type="module"></script>
 </body>
 </html>
