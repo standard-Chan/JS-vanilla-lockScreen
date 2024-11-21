@@ -23,6 +23,7 @@ class Login {
     const username = this.#element['input'].value;
     this.#saveUsername(username);
     Renderer.hideLogin();
+    Renderer.showLogout();
   }
 
   #saveUsername(username) {
