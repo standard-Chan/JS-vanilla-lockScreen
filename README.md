@@ -4,11 +4,15 @@
 ## 구현 기능
 ### js
   - [ ] user
-    - [ ] login
+    - [x] login submit
       - [x] input 입력 조건 처리
       - [x] 정보 local Storage에 저장
-      - [ ] login 창 감추기
-    - [ ] logout
+      - [x] login 창 감추기
+      - [ ] logout 창 보이기
+    - [ ] logout click
+      - [ ] local Storage 정보 삭제
+      - [ ] logout 창 감추기
+      - [ ] login 창 보이기
 
   - [ ] 배경화면
     - [ ] 랜덤 배경화면 (로그인시)
