@@ -1,3 +1,5 @@
+import LocalStorage from "./LocalStorage.js";
+import Renderer from "./Renderer.js";
 import Login from "./user/login.js";
 import Logout from "./user/Logout.js";
 
@@ -9,7 +11,13 @@ class App {
 
   login() {
     const login = new Login();
-    
+    if (LocalStorage.isLoggedIn()) {
+      Renderer.hideLogin();
+      Renderer.showLogout();
+    }
+    else {
+      Renderer.showLogin();
+    }
   }
 
   logout() {
