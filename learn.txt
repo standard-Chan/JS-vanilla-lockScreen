@@ -1,0 +1,7 @@
+
+# css
+
+ - top은 바로 위 부모 요소에 영향을 받음.
+ - 자식 요소는 contents에 따라서 height가 달라짐.
+ - flex의 justify
+ - align-iteme

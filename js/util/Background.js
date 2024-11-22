@@ -5,7 +5,7 @@ class Background {
   static setBackground() {
     const imageNumber = this.#generateRandomNumber();
     this.#saveBackgroundNumber(imageNumber);
-    const imagePath = `/images/bg${imageNumber}.jpg`;
+    const imagePath = `/images/background/bg${imageNumber}.jpg`;
     Renderer.showBackground(imagePath);
   }
 

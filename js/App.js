@@ -5,6 +5,11 @@ import Logout from "./user/Logout.js";
 
 class App {
   run() {
+
+    // window resize
+    window.addEventListener('resize', this.resize.bind(this));
+    this.resize();
+
     this.login();
     this.logout();
   }
@@ -22,6 +27,12 @@ class App {
 
   logout() {
     const logout = new Logout();
+  }
+
+  resize() {
+    const body = document.body;
+    body.style.height = `${window.innerHeight}px`;
+    body.style.width = `${window.innerWidth}px`;
   }
 }
 
