@@ -43,15 +43,15 @@ body#background {
 #inner-login {
   display: block;
   position: absolute;
-  top: 57%;
+  top: 55%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
 
 #login-form .outer {
   display: inline-block;
-  width: 210px;
-  height: 25px;
+  width: 250px;
+  height: 37px;
   background-color: #9A92A1bf;
   text-align: center;
   display: flex;
@@ -61,19 +61,44 @@ body#background {
 
 #login-input {
   display: inline-block;
-  width: 88%;
-  height: 90%;
+  width: 83%;
+  height: 85%;
   background-color: white;
   border: none;
 }
 #login-button {
-  width: 10%;
-  height: 90%;
+  width: 15%;
+  height: 85%;
   margin-left: 1px;
   display: inline-block;
-  background-color: #93969d;
+  background-color: #4b4c5075;
   border: none;
   color: white;
+}
+#login-button:hover {
+  background-color: #93969d;
+}
+
+#clock {
+  position: absolute;
+  bottom: 0%;
+  margin-left: 50px;
+}
+
+#clock .clock__text {
+  color: rgba(255, 255, 255, 0.922);
+}
+#clock-time-text {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+#clock-date-text{
+  margin-top: 0px;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
 }
 
 #footer {

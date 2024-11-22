@@ -2,10 +2,11 @@ import LocalStorage from "./LocalStorage.js";
 import Renderer from "./Renderer.js";
 import Login from "./user/login.js";
 import Logout from "./user/Logout.js";
+import Clock from "./util/Clock.js";
 
 class App {
   run() {
-
+    this.clock();
     // window resize
     window.addEventListener('resize', this.resize.bind(this));
     this.resize();
@@ -27,6 +28,11 @@ class App {
 
   logout() {
     const logout = new Logout();
+  }
+
+  clock() {
+    const clock = new Clock();
+    clock.showClock();
   }
 
   resize() {
