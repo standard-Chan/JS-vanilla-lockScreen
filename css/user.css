@@ -1,0 +1,59 @@
+
+#logout {
+  width: 300px;
+  height: 100px;
+}
+
+#logout-button {
+  margin-left: 50px;
+}
+
+
+#inner-login {
+  display: block;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#login-form .outer {
+  display: inline-block;
+  width: 250px;
+  height: 35px;
+  border: 2px solid #9A92A1bf;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-input {
+  display: inline-block;
+  width: 90%;
+  height: 100%;
+  background-color: rgba(238, 238, 238, 0.966);
+  border: none;
+  border-right: 1.5px solid #9A92A1bf;
+}
+#login-button {
+  background-image: url('/images/assets/Arrow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
+  width: 14%;
+  height: 100%;
+  display: inline-block;
+  background-color: #908e8e73;
+  border: none;
+}
+#login-button:hover {
+  background-color: #93969ddf;
+}
+
+
+@media (min-width: 900px) {
+  #login-form .outer {
+    width: 270px;
+  }
+}

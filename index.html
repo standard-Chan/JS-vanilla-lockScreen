@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web lock screen</title>
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/user.css">
+  <link rel="stylesheet" href="/css/clock.css">
+  <link rel="stylesheet" href="/css/weather.css">
 </head>
 <body id="background">
   <header id="header">
     <div id="header__inner">
       <div id="logout" class="hidden">
+        <h3></h3>
         <button id="logout-button">logout</button>
       </div>
     </div>
@@ -26,7 +30,7 @@
               maxlength="10"
               minlength="1"
               autocomplete="off">
-              <button id="login-button">bnt</button>
+              <button id="login-button"></button>
             </div>
           </div>
         </form>
@@ -34,6 +38,11 @@
       <div id="clock">
         <h2 id="clock-time-text" class="clock__text">time</h2>
         <h4 id="clock-date-text" class="clock__text">date</h4>
+      </div>
+      <div id="weather" class="container">
+        <h3 id="weather-main">asd</h3>
+        <h3 id="weather-temperature">gdsfsd</h3>
+        <h5 id="weather-text">asdsda</h5>
       </div>
     </div>
   </main>

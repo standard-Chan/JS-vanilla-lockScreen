@@ -3,10 +3,12 @@ import Renderer from "./Renderer.js";
 import Login from "./user/login.js";
 import Logout from "./user/Logout.js";
 import Clock from "./util/Clock.js";
+import Weather from "./util/Weather.js";
 
 class App {
   run() {
     this.clock();
+    this.weather();
     // window resize
     window.addEventListener('resize', this.resize.bind(this));
     this.resize();
@@ -39,6 +41,10 @@ class App {
     const body = document.body;
     body.style.height = `${window.innerHeight}px`;
     body.style.width = `${window.innerWidth}px`;
+  }
+
+  weather() {
+    const weather = new Weather();
   }
 }
 
