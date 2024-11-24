@@ -1,10 +1,14 @@
 # JS-vanilla-lockScreen
  Web lock screen made with JavaScript
 
+
+## image
+
+![alt text](/docs/image.png)
+
 ### js
   - [x] user
-    - [ ] login
-      - [ ] click 및 key 입력 시 show
+    - [x] login
       - [x] local storage 정보 저장
     - [x] logout
 
@@ -16,5 +20,3 @@
   - [x] 위젯
     - [x] 시계
     - [x] 날씨
-
-  - [ ] 추가 기능
