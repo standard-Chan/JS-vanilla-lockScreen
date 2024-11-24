@@ -1,0 +1,21 @@
+#clock {
+  position: absolute;
+  bottom: 0%;
+  margin-left: 50px;
+}
+
+#clock .clock__text {
+  color: rgba(255, 255, 255, 0.922);
+}
+#clock-time-text {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+#clock-date-text{
+  margin-top: 0px;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
