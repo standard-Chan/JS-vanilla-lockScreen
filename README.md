@@ -3,7 +3,7 @@
 
 ### js
   - [x] user
-    - [] login
+    - [ ] login
       - [ ] click 및 key 입력 시 show
       - [x] local storage 정보 저장
     - [x] logout
