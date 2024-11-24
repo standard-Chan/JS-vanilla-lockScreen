@@ -2,6 +2,7 @@ import LocalStorage from "./LocalStorage.js";
 import Renderer from "./Renderer.js";
 import Login from "./user/login.js";
 import Logout from "./user/Logout.js";
+import Background from "./util/Background.js";
 import Clock from "./util/Clock.js";
 import Weather from "./util/Weather.js";
 
@@ -9,6 +10,7 @@ class App {
   run() {
     this.clock();
     this.weather();
+    Background.setBackground();
     // window resize
     window.addEventListener('resize', this.resize.bind(this));
     this.resize();
